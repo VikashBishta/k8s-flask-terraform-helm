@@ -1,0 +1,11 @@
+adminUser: admin
+adminPassword: admin1976
+
+service:
+  type: NodePort
+  port: 3000
+  nodePort: 31001
+
+persistence:
+  enabled: true
+  size: 1Gi

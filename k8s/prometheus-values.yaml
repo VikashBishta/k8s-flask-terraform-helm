@@ -1,0 +1,10 @@
+alertmanager:
+  enabled: true
+
+pushgateway:
+  enabled: false
+
+server:
+  service:
+    type: NodePort
+    nodePort: 31000
